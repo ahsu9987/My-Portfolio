@@ -1,0 +1,427 @@
+html , body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #242937;
+}
+.navbar{
+    background-color: #242937;
+}
+.homebox{
+    background: #05091c;
+}
+.home1stcolm{
+    position: relative;
+    top: 150px; 
+    left: 100px;
+    z-index: 1;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    height: 500px; 
+    background-color: whitesmoke; 
+    opacity: 0.6;
+}
+.hometxt{
+    font-size: 65px;
+     padding: 8px; 
+     margin-left: 50px;
+}
+.homeimg{
+    width: 1100px;
+}
+.homeimg2{
+    height: 750px;
+}
+.allcontactlink{
+    position: relative;
+    left: 490px; 
+    bottom: 400px;
+}
+.github:hover{
+    transform: scale(1.6); 
+    transition: 1s;
+   color: black;
+}
+.fbimg:hover{
+    transform: scale(1.6);
+    transition: 1s;
+   color: lightskyblue;
+}
+.linkinimg:hover{
+    transform: scale(1.6); 
+    transition: 1s;
+   color: blue;
+}
+.instaimg:hover{
+    background: -webkit-linear-gradient(#f09433 20%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.6); 
+    transition: 1s;
+    height: 20px;
+}
+.whatsapimg:hover{
+    transform: scale(1.4); 
+    transition: 1s;
+   color: green;
+}
+.messimg:hover{
+    transform: scale(1.4); 
+    transition: 1s;
+   color: red;
+}
+.aboutsec{
+    margin: 20px 0px 0px 50px;
+}
+.about-text{
+    font-size: 24px;
+    margin-top: 100px;
+}
+.abouttext2{
+    position: relative;
+    right: 320px;
+    top: 60px;
+    font-size: 70px;
+    color: gray;
+}
+.aboutcol1{
+    position: relative;
+    right:  250px;
+}
+.aboutcol2{
+position: relative;
+left: 170px;
+}
+#about{
+    background-color: #0C090A;
+}
+#skills{
+    background-color:#040720;
+}
+.aboutimg{
+    width: 900px;
+     padding: 120px;
+}
+.hire{
+    border: 3px solid #b09aef;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 70px;
+    margin-right: 370px;
+
+ }
+ .hire:hover{
+    background: linear-gradient(to bottom left, #f271f2 9%, #7adffb 93%);
+    border: none;
+ }
+ .cv{
+    background: transparent;
+     font-size: 25px;
+     font-weight: 700;
+     border: 3px solid #b09aef;
+     border-radius: 10px;
+     padding: 10px 15px;
+     margin-top: 70px;
+     margin-right: 60px;
+    }
+.cv:hover{
+    background: linear-gradient(to bottom left, #f271f2 9%, #7adffb 93%);
+    border: none; 
+}    
+.cvunderline{
+    text-decoration: none;
+    color: white;
+}
+.cvunderline:hover{
+    color: black;
+}
+.skillstxt{
+    font-family:'Kaushan Script', cursive;
+    font-size: 100px;
+}
+.progressbar1,.progressbar2{
+    width: 70%;
+    height: 30px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin: 10px 35px 35px 45px;        
+
+}
+.progressbar2{
+    width: 28%;
+    margin: 10px 25px 25px 55px;        
+
+}
+.Frontend-img{
+    padding: 1px; 
+    /* background-color: #0C090A; */
+}
+.highpercent,.mediumpercent{
+    width: 80%;
+    background-color: #5F9EA0;
+    color: black;
+    font-weight: bolder;
+}
+.mediumpercent{
+    width: 60%;
+}
+.Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
+    margin-left: 50px;
+    font-size: 23px;
+    color: #FFA600;
+    font-weight: bold;
+}
+.Languagetxt2{
+    margin-left: 455px;
+}
+.Languagetxt3{
+    margin-left: 485px;
+}
+.Languagetxt4{
+    margin-left: 700px;
+}
+.netbeantxt{
+    margin-left: 305px; 
+}
+.coroltxt{
+    margin-left: 392px; 
+}
+.cards{
+    width: 23rem;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.cards:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+}
+.cardimges{
+    height: 320px;
+    width: 370px;
+}
+.row1{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    height:600px;
+}
+.row1::-webkit-scrollbar{
+    width: 0px;
+}
+.allbtn{
+    background-color: #b0c4de;
+}
+.allbtn:hover{
+    background-color: #002e63;
+    color: white;
+}
+#Projects{
+    background-color: whitesmoke;
+}
+.projectlink{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier';
+}
+.lastimage{
+    height: 500px;
+    width: 600px;
+}
+.formdesing{
+    border-radius: 10px;
+    width: 800px;
+    height: 700px;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 767px){ 
+    .home1stcolm{
+        position: relative;
+        top: 150px; 
+        left: 45px;
+        border-radius: 50px 50px 50px 50px;
+        height: 150px; 
+        width: 300px;
+        background-color: blanchedalmond;
+        opacity: 0.6;
+        /* display: none; */
+    }
+    .home2ndcolumn{
+        position: relative;
+        bottom: 80px;
+    }
+    .hometxt{
+        font-size: 25px;
+         padding: 10px; 
+         margin-left: 0px;
+    }
+    .homeimg{
+        width: 400px;
+        height: 300px;
+    }
+    .homeimg2{
+        height: 300px;
+    }
+    .messimg,.whatsapimg,.instaimg,.linkinimg,.fbimg,.github{
+        position: relative;
+        bottom: 10px;
+        left: 260px;
+        color: white;
+        font-size: 30px;
+    }
+    .whatsapimg{
+        top: 52px;
+        left: 220px;
+    }
+    .instaimg{
+        top: 113px;
+        left:180px;
+    }
+    .linkinimg{
+        top: 175px;
+        left: 135px;
+    }
+    .fbimg{
+        top: 236px;
+        left:88px;
+    }
+    .github{
+        top: 300px;
+        right: 100px;
+        left: 40px;
+    }
+    .allcontactlink{
+        position: relative;
+        left: 0px;
+        bottom: 200px;
+    }
+    .aboutsec{
+        margin-left: 0px;
+    }
+    .about-text{
+        font-size: 16px;
+        padding:10px;
+        margin-top: 20px;
+    }
+    .abouttext2{
+        position: relative;
+        right: 70px;
+        top: 10px;
+    }
+    .aboutcol1{
+        position: relative;
+        right:  15px;
+    }
+    .aboutcol2{
+    position: relative;
+    left: 0px;
+    }
+    .aboutimg{
+        width: 380px;
+         padding: 10px;
+    }
+    .columnrevers{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hire{
+        font-size: 20px;
+        padding: 5px 15px;
+        margin-top: 20px;
+        margin-right: 10px;
+
+     }
+     .cv{
+         font-size: 20px;
+         margin-right: 20px;
+         padding: 2px 15px;
+         margin-top: 20px;
+        } 
+    .skillstxt{
+        font-size: 50px;
+        }
+    .progressbar1,.progressbar2{
+        width: 80%;
+        height: 20px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        margin: 0px 10px 0px 10px;
+        }
+    .progressbar2{
+        width: 100%;
+        height: 20px;
+        margin: 15px 15px 5px 15px;        
+        }
+    .Frontend-img{
+        height: 20px;
+        padding: 1px; 
+        width: 20px;
+        }
+    .highpercent{
+        width: 65%;
+        }
+    .mediumpercent{
+        width: 50%;
+        }
+    .Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
+        margin-left: 10px;
+        font-size: 10px;
+        }
+    .Languagetxt2{
+        margin-left: 75px;
+        }
+    .Languagetxt3{
+        margin-left: 100px;
+        }
+    .Languagetxt4{
+    margin-left: 100px;
+        }
+        .netbeantxt{
+            margin-left: 45px; 
+        }
+        .coroltxt{
+            margin-left: 98px; 
+        }
+        .skillstxt{
+            background-color: #242937;
+        }
+        .cards{
+            width: 20rem;
+            border-top-right-radius: 100px;
+            border-top-left-radius: 100px;
+        }
+        .cardimges{
+            height: 290px;
+            width: 320px;
+        }
+        .row1{
+            overflow-x: auto;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height:555px;
+        }
+        .Swipetxt{
+            margin-left: 180px;
+            position: absolute;
+        }
+        #Projects{
+            background-color: #05091c;
+        }
+        .lastimage{
+            height: 280px;
+            width: 320px;
+        }
+        .formdesing{
+            width: 380px;
+            margin-left: 0px;
+            height: 650px;
+        }
+        .cards:hover{
+            transform: scale(1);
+        }
+}
