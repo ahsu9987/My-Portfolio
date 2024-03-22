@@ -5,7 +5,7 @@ html , body {
     background-color: #242937;
 }
 .navbar{
-    background-color: #242937;
+    background-color: lightslategray;
 }
 .homebox{
     background: #05091c;
@@ -168,7 +168,7 @@ left: 170px;
 .mediumpercent{
     width: 60%;
 }
-.Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
+.Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt,.Languagetxtjava,.LanguagetxtExpress{
     margin-left: 50px;
     font-size: 23px;
     color: #FFA600;
@@ -180,11 +180,17 @@ left: 170px;
 .Languagetxt3{
     margin-left: 485px;
 }
+.Languagetxtjava{
+    margin-left: 710px;
+}
+.LanguagetxtExpress{
+    margin-left: 60px;
+}
 .Languagetxt4{
     margin-left: 700px;
 }
 .netbeantxt{
-    margin-left: 305px; 
+    margin-left: 60px; 
 }
 .coroltxt{
     margin-left: 392px; 
@@ -367,7 +373,7 @@ left: 170px;
     .mediumpercent{
         width: 50%;
         }
-    .Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt{
+    .Languagetxt1,.Languagetxt2,.Languagetxt3,.Languagetxt4,.netbeantxt,.coroltxt,.Languagetxtjava,.LanguagetxtExpress{
         margin-left: 10px;
         font-size: 10px;
         }
@@ -375,13 +381,19 @@ left: 170px;
         margin-left: 75px;
         }
     .Languagetxt3{
-        margin-left: 100px;
+        margin-left: 140px;
+        }
+    .Languagetxtjava{
+            margin-left: 135px;
+        }
+    .LanguagetxtExpress{
+            margin-left: 20px;
         }
     .Languagetxt4{
     margin-left: 100px;
         }
         .netbeantxt{
-            margin-left: 45px; 
+            margin-left: 30px; 
         }
         .coroltxt{
             margin-left: 98px; 
